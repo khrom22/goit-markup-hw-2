@@ -1,3 +1,196 @@
-body{
-    background-color: beige;
+:root {
+    /*fonts*/
+    --main-font: "roboto", sans-serif;
+    --secondary-font: "raleway";
+    /*text color*/
+    --main-tx-cl: #212121;
+    --seccond-tx-cl: #757575;
+    /*backround color*/
+    --light-bg-cl: #FFFFFF;
+    --dark-bg-cl: #2F303A;
+    --cl-active: #2196F3;
+    --secondary-bg-cl: #F5F4FA
+}
+body {
+    font-family: var(--main-font);
+    color: var(--main-tx-cl);
+}
+/*header*/
+.logo {
+font-family: var(--secondary-font);
+color: var(--main-tx-cl);
+text-decoration: none;
+font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+}
+.logo:hover,
+.logo:focus{
+    text-decoration: underline;
+    text-decoration-color: var(--cl-active);
+}
+.logo-blu {
+    color: var(--cl-active)
+}
+.header-link {
+text-decoration: none;
+color: var(--main-tx-cl);
+font-weight: 500;
+font-size: 14px;
+ line-height: 1.14;
+ letter-spacing: 0.02em;
+}
+.header-link:hover,
+.header-link:focus {
+color: var(--cl-active);
+}
+.list {
+    list-style: none;
+}
+.header-link-active{
+color: var(--cl-active);
+}
+.tel{
+    color: var(--seccond-tx-cl);
+}
+
+/*hero*/
+.hero{
+    background-color: var(--dark-bg-cl);
+    
+}
+.hero-title{
+    font-weight: 900;
+        font-size: 44px;
+        line-height: 1.36;
+        text-align: center;
+        letter-spacing: 0.06em;
+        text-transform: uppercase;
+        color: var(--light-bg-cl);
+}
+.btn{
+    cursor: pointer;
+    color: var(--light-bg-cl);
+    background-color: var(--cl-active);
+}
+.hero-title:hover,
+.hero-title:focus {
+    text-decoration: underline;
+    text-decoration-color: var(--cl-active);
+}
+
+/*Переваги*/
+.benefits{
+}
+.benefits-title{
+    color: var(--main-tx-cl);
+    font-weight: 700;
+        font-size: 14px;
+        line-height: 1.14;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+}
+.benefits-text{
+    color: var(--seccond-tx-cl);
+    font-weight: 400;
+        font-size: 14px;
+        line-height: 1.7;
+        letter-spacing: 0.03em;
+}
+.work-title{
+    color: var(--main-tx-cl);
+    font-weight: 700;
+        font-size: 36px;
+        line-height: 1.17;
+        text-align: center;
+        letter-spacing: 0.03em;
+}
+/*tem*/
+.team{
+    background-color: var(--secondary-bg-cl);
+}
+.team-title{
+    color: var(--main-tx-cl);
+    font-weight: 700;
+        font-size: 36px;
+        line-height: 1.17;
+        text-align: center;
+        letter-spacing: 0.03em;
+}
+.name-worker{
+    color: var(--main-tx-cl);
+    font-weight: 500;
+        font-size: 16px;
+        line-height: 1.19;
+        letter-spacing: 0.03em;
+}
+.profesion{
+    color: var(--seccond-tx-cl);
+    font-weight: 400;
+        font-size: 16px;
+        line-height: 1.19;
+        letter-spacing: 0.03em;
+}
+/* footer*/
+.footer{
+    background-color: var(--dark-bg-cl);
+
+}
+.footer-link{
+    color: #ffffff;
+    font-family: var(--secondary-font);
+    font-weight: 700;
+        font-size: 26px;
+        line-height: 1.19;
+        letter-spacing: 0.03em;
+        text-decoration: none;
+}
+.footer-logo{
+    color: var(--cl-active);
+}
+.city-address{
+    color: #FFFFFF;
+}
+.footer-contacts{
+    color: var(--seccond-tx-cl);
+    text-decoration: none;
+}
+
+/*Portfolio*/
+.portfolio{
+    background-color: var(--light-bg-cl);
+}
+.btn-portfolio{
+    background-color: var(--secondary-bg-cl);
+    color: var(--main-tx-cl);
+}
+.btn-portfolio:hover,
+.btn-portfolio:focus{
+    background-color: var(--cl-active);
+    color: var(--light-bg-cl);
+    cursor: pointer;
+}
+.portfolio-link{
+    text-decoration: none;
+
+}
+.card-title{
+    color: var(--main-tx-cl);
+    font-weight: 700;
+        font-size: 18px;
+        line-height: 2;
+        letter-spacing: 0.06em;
+}
+.card-variety{
+    color: var(--seccond-tx-cl);
+    font-weight: 400;
+        font-size: 16px;
+        line-height: 1.88;
+        letter-spacing: 0.03em;
+}
+.portfolio-link:hover,
+.portfolio-link:focus{
+    text-decoration: underline;
+    text-decoration-color: var(--cl-active);
 }

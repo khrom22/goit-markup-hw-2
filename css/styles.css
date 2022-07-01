@@ -1,7 +1,7 @@
 :root {
     /*fonts*/
     --main-font: "roboto", sans-serif;
-    --secondary-font: "raleway";
+    --secondary-font: "raleway", sans-serif;
     /*text color*/
     --main-tx-cl: #212121;
     --seccond-tx-cl: #757575;
@@ -93,7 +93,6 @@ color: var(--cl-active);
 }
 .benefits-text{
     color: var(--seccond-tx-cl);
-    font-weight: 400;
         font-size: 14px;
         line-height: 1.7;
         letter-spacing: 0.03em;
@@ -127,7 +126,6 @@ color: var(--cl-active);
 }
 .profesion{
     color: var(--seccond-tx-cl);
-    font-weight: 400;
         font-size: 16px;
         line-height: 1.19;
         letter-spacing: 0.03em;
@@ -155,6 +153,10 @@ color: var(--cl-active);
 .footer-contacts{
     color: var(--seccond-tx-cl);
     text-decoration: none;
+}
+.footer-contacts:hover,
+.footer-contacts:focus{
+    color: var(--cl-active);
 }
 
 /*Portfolio*/
@@ -184,7 +186,6 @@ color: var(--cl-active);
 }
 .card-variety{
     color: var(--seccond-tx-cl);
-    font-weight: 400;
         font-size: 16px;
         line-height: 1.88;
         letter-spacing: 0.03em;

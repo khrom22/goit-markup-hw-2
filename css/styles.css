@@ -51,7 +51,8 @@ color: var(--cl-active);
 .header-link-active{
 color: var(--cl-active);
 }
-.tel{
+.tel,
+.mail {
     color: var(--seccond-tx-cl);
 }
 
@@ -73,6 +74,13 @@ color: var(--cl-active);
     cursor: pointer;
     color: var(--light-bg-cl);
     background-color: var(--cl-active);
+    font-weight: 700;
+        font-size: 16px;
+        line-height: 1.88;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        letter-spacing: 0.06em;
 }
 .hero-title:hover,
 .hero-title:focus {
@@ -122,12 +130,14 @@ color: var(--cl-active);
     font-weight: 500;
         font-size: 16px;
         line-height: 1.19;
+        text-align: center;
         letter-spacing: 0.03em;
 }
-.profesion{
+.profession{
     color: var(--seccond-tx-cl);
         font-size: 16px;
         line-height: 1.19;
+        text-align: center;
         letter-spacing: 0.03em;
 }
 /* footer*/
@@ -147,7 +157,16 @@ color: var(--cl-active);
 .footer-logo{
     color: var(--cl-active);
 }
+.footer-link:hover,
+.footer-link:focus{
+    text-decoration: underline;
+    text-decoration-color: var(--cl-active);
+}
 .city-address{
+    font-style: normal;
+    font-size: 14px;
+        line-height: 1.71;
+        letter-spacing: 0.03em;
     color: #FFFFFF;
 }
 .footer-contacts{
@@ -166,6 +185,11 @@ color: var(--cl-active);
 .btn-portfolio{
     background-color: var(--secondary-bg-cl);
     color: var(--main-tx-cl);
+    font-weight: 500;
+        font-size: 16px;
+        line-height: 1.62;
+        text-align: center;
+        letter-spacing: 0.03em;
 }
 .btn-portfolio:hover,
 .btn-portfolio:focus{

@@ -170,7 +170,12 @@ color: var(--cl-active);
     color: #FFFFFF;
 }
 .footer-contacts{
-    color: var(--seccond-tx-cl);
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 1.71;
+        letter-spacing: 0.03em;
+        color: rgba(255, 255, 255, 0.6);;
     text-decoration: none;
 }
 .footer-contacts:hover,
@@ -183,6 +188,7 @@ color: var(--cl-active);
     background-color: var(--light-bg-cl);
 }
 .btn-portfolio{
+    font-family: inherit;
     background-color: var(--secondary-bg-cl);
     color: var(--main-tx-cl);
     font-weight: 500;
